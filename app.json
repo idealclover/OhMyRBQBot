@@ -1,12 +1,13 @@
 {
-  "name": "CatBot",
+  "name": "OhMyCatBot",
   "description": "Telegram Bot that sends you cat gifs from TheCatApi.com",
-  "repository": "https://github.com/Kylmakalle/CatBot/",
+  "repository": "https://github.com/idealclover/OhMyCatBot/",
   "keywords": ["cat", "bot", "telegram"],
   "env": {
     "TELEGRAM_TOKEN": {
       "description": "Telegram bot API authentication token from https://t.me/BotFather",
-      "value": "123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL"
+      "value": "123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL",
+      "required": true
     }
   }
 }
