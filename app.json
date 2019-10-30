@@ -4,7 +4,7 @@
   "repository": "https://github.com/idealclover/OhMyRBQBot/",
   "keywords": ["cat", "anime", "bot", "telegram"],
   "env": {
-    "TELEGRAM_TOKEN": {
+    "OhMyRBQBot_TOKEN": {
       "description": "Telegram bot API authentication token from https://t.me/BotFather",
       "value": "123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL",
       "required": true

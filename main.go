@@ -4,6 +4,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"time"
 
 	"github.com/tidwall/gjson"
@@ -27,8 +28,11 @@ func getURL(url, scheme string) string {
 }
 
 func main() {
+	Token := os.Getenv("OhMyRBQBot_TOKEN")
+	println(Token)
+
 	b, err := tb.NewBot(tb.Settings{
-		Token: "TOKEN", // TODO: Change your token here.
+		Token: Token,
 		// You can also set custom API URL. If field is empty it equals to "https://api.telegram.org"
 		// URL: "http://195.129.111.17:8012",
 		Poller: &tb.LongPoller{Timeout: 10 * time.Second},
