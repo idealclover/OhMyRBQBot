@@ -12,4 +12,6 @@
 >
 > meowmeow - 随机发送一张猫猫 GIF 图 ww
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 喵ww
