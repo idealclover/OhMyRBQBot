@@ -1,1 +1,1 @@
-bot: python3 catbot.py
+bot: bin/OhMyRBQBot
