@@ -1,5 +1,3 @@
-[WIP]
-
 ## 翠翠家的 RBQ Bot
 
 😈 翠翠家的惹不起的小 bot Written in Golang
@@ -37,17 +35,17 @@ Telegram [@OhMyRBQBot](https://t.me/OhMyRBQBot)
 
 2. 在服务器/heroku 上部署
 
-**在 heroku 上部署**
+**a. 在 heroku 上部署**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 记得填写 bot token
 
-**在服务器上部署 - 使用编译好的二进制包**
+**b. 在服务器上部署 - 使用编译好的二进制包**
 
 //TODO
 
-**在服务器上部署 - 手动编译安装**
+**c. 在服务器上部署 - 手动编译安装**
 
 //TODO
 
