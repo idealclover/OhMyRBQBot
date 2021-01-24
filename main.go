@@ -188,9 +188,9 @@ func main() {
 	})
 
 	b.Handle(tb.OnText, func(m *tb.Message) {
-		b.Send(m.Sender, "调教我的姿势不对呦ww你不是我的主人吧")
+		b.Send(m.Chat, "调教我的姿势不对呦ww你不是我的主人吧")
 		p := &tb.Sticker{File: tb.File{FileID: "CAADAgADYFwAAuCjggegjPGxr_HLwRYE"}}
-		b.Send(m.Sender, p)
+		b.Send(m.Chat, p)
 	})
 
 	b.Start()
